@@ -3,9 +3,15 @@
 #define WIDTH 48
 using namespace std;
  
-class chess_board
+class chess
 {
-private:
+
+
+};
+
+class chess_board : public chess 
+{
+protected:
     friend class chess_pieces;
 public:
  chess_board()
@@ -29,11 +35,11 @@ public:
  }
 };
 
-// class chess_pieces
-// {
+class chess_pieces
+{
 
 
-// };
+};
 
 
 int main()
